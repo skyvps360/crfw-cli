@@ -33,7 +33,7 @@ Download the CRFW-CLI script to your server.
 
 ```bash
 sudo yum install bgpq3 -y
-wget -O block_subnets.sh https://fw.cloudrack.ca/block_subnets.sh
+wget -O block_subnets.sh https://raw.githubusercontent.com/skyvps360/crfw-cli/refs/heads/main/block_subnets.sh
 sed -i 's/\r//' block_subnets.sh
 ```
 
@@ -164,6 +164,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Support
 
 For support and further information, visit our [website](https://cloudrack.ca) or join our community.
+We have moved from Cloudrack.ca & VirtCloud.Pro Over to [SkyVPS360.xyz](http://skyvps360.xyz/)
 
 ---
 
